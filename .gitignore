@@ -1,0 +1,15 @@
+# Blender's automatic backups
+*.blend1
+*.blend2
+*.blend@
+# Renders and clips: made again from the blend when needed
+*.mp4
+*.mov
+*.webm
+*.gif
+renders/
+clips/
+frames/
+# Python caches from Blender loading the scripts
+__pycache__/
+*.pyc
