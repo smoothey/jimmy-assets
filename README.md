@@ -24,5 +24,11 @@ the blend. Install Git LFS once per machine (`git lfs install`).
 - The blend can't be merged. If you change it, commit and push straight away,
   and pull on the other machines before they touch it.
 - The blend grows about 16 MB each time it is built and saved, and every
-  pushed copy stays in LFS storage. Push the blend when a step is agreed,
-  not on every save.
+  pushed copy stays in LFS storage (10 GiB included). Clean it out (File,
+  Clean Up, Purge Unused Data) and save it compressed before pushing, and
+  push it only when a step is agreed, not on every save.
+
+## Big working copies
+Copies too big or too frequent for the repo (a working blend between agreed
+steps, old renders) go on Google Drive, `G:\My Drive\Dev\Jimmy 3D` (Ant,
+25 Nov 2026). Drive is the backup; this repo is what the machines work from.
