@@ -1,3 +1,12 @@
+# Text files keep LF endings on every machine, so md5 checks against
+# smoothey/jimmy's copies of the scripts match on Windows too.
+*.py    text eol=lf
+*.json  text eol=lf
+*.md    text eol=lf
+*.html  text eol=lf
+*.js    text eol=lf
+*.mjs   text eol=lf
+
 # Big binary files go to Git LFS, not ordinary git.
 *.blend filter=lfs diff=lfs merge=lfs -text
 *.glb   filter=lfs diff=lfs merge=lfs -text
@@ -12,3 +21,4 @@
 *.hdr   filter=lfs diff=lfs merge=lfs -text
 *.gz    filter=lfs diff=lfs merge=lfs -text
 *.zip   filter=lfs diff=lfs merge=lfs -text
+*.npz   filter=lfs diff=lfs merge=lfs -text
